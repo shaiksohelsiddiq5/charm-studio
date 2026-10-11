@@ -7,7 +7,7 @@ import '../models/user_account_model.dart';
 import 'mock_data_service.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:5001/api';
+  static const String baseUrl = 'https://charm-studio-backend.onrender.com/api';
 
   static Future<List<Creator>> fetchCreators({
     String? search,
